@@ -1,6 +1,6 @@
 const cargarTipos = async()=>{
     try{
-        const url = "http://201.140.116.237/services/tipo.php"
+        const url = "https://201.140.116.237/services/tipo.php"
         await axios 
         .get(url)
         .then((res)=>{
@@ -25,7 +25,7 @@ function llenarcombos(data){
 };
 const cargarVentas=async()=>{
     try{
-     url = "http://201.140.116.237/services/ventas.php"
+     url = "https://201.140.116.237/services/ventas.php"
     await axios 
     .get(url)
     .then((res)=>{
